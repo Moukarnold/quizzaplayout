@@ -23,11 +23,19 @@ body {
 }
 
 .bookmark {
-  position: sticky;
-  top: -56px;
-  border-radius: 1000000%;
+  position: absolute;
+  right: 15%;
+  margin-top: -7px;
+  z-index: 2;
 }
 
+.sub-question {
+  -position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly stretch;
+  margin: 3%;
+}
 .box1 {
   border: solid 2px black;
   margin: 20px;
@@ -73,6 +81,7 @@ body {
   left: 0px;
   display: flex;
   justify-content: space-around;
+  z-index: 3;
 }
 
 .stelle {
@@ -80,18 +89,11 @@ body {
 }
 
 .question1 {
-  bottom: 10px;
-  left: 10px;
+  margin-right: 2%;
 }
 
 .question2 {
-  left: 90px;
-  bottom: 10px;
-}
-
-.question3 {
-  left: 170px;
-  bottom: 10px;
+  margin-right: 2%;
 }
 
 .foot-picture1 {
