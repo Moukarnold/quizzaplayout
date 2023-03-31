@@ -30,7 +30,6 @@ body {
 }
 
 .sub-question {
-  -position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly stretch;
@@ -77,11 +76,17 @@ body {
   height: 80px;
   width: 100%;
   bottom: 0px;
-  margin-top: 10px;
-  left: 0px;
-  display: flex;
-  justify-content: space-around;
+  -margin-top: 10px;
+  -left: 0px;
+
   z-index: 3;
+}
+
+.pic-foot {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+  margin-right: 2%;
 }
 
 .stelle {
@@ -96,20 +101,20 @@ body {
   margin-right: 2%;
 }
 
-.foot-picture1 {
+.foto-profil {
   width: 50px;
   height: 50px;
   border-radius: 20%;
   background-color: gb(198, 223, 171);
 }
 
-.foot-picture2 {
+.foto-home {
   width: 50px;
   height: 50px;
   border-radius: 20%;
   background-color: gb(198, 223, 171);
 }
-.foot-picture3 {
+.foto-setting {
   width: 50px;
   height: 50px;
   border-radius: 20%;
