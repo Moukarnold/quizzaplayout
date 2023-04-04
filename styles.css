@@ -80,7 +80,7 @@ body {
   width: 100%;
   bottom: 0px;
   -margin-top: 10px;
-  -left: 0px;
+  left: 0px;
   z-index: 3;
 }
 
@@ -121,5 +121,33 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 20%;
-  background-color: rgb(198, 223, 171);
+}
+
+.container {
+  padding: ;
+}
+
+.mini-profil {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.entete_profil {
+  display: grid;
+  grid: auto-flow / 2fr 1fr 1fr;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.low_profil {
+  display: grid;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.body_midle_profil {
+  display: flex;
+  margin-left: 55px;
+  margin-right: 55px;
 }
