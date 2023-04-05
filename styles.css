@@ -16,6 +16,7 @@ body {
 .navbar {
   position: relative;
   font-family: "Times New Roman", Times, serif;
+  background-color: aquamarine;
   border: solid 2px;
   height: 80px;
   width: 103%;
@@ -123,31 +124,59 @@ body {
   border-radius: 20%;
 }
 
-.container {
-  padding: ;
+.body_container_profil {
+  display: flex;
+  flex-direction: column;
 }
 
-.mini-profil {
+.body_foto-profil {
   width: 150px;
   height: 150px;
   border-radius: 20px;
 }
+.name_profil {
+  margin-top: 70px;
+  text-size-adjust: 90%;
+}
 
-.entete_profil {
-  display: grid;
-  grid: auto-flow / 2fr 1fr 1fr;
+.body_entete_profil {
+  display: flex;
+  gap: 70px;
   margin-left: 55px;
   margin-right: 55px;
 }
 
-.low_profil {
-  display: grid;
+.body_midle_form_profil {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin-left: 55px;
   margin-right: 55px;
+  margin-bottom: 80px;
 }
 
 .body_midle_profil {
   display: flex;
+  flex-direction: column;
+  gap: 40%;
   margin-left: 55px;
   margin-right: 55px;
+  margin-bottom: 40px;
+}
+
+.body_bottom_profil {
+  display: flex block;
+  flex-direction: row;
+  margin-bottom: 90px;
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-bottom: 40px;
+}
+
+.abstand {
+  margin-left: 40px;
+}
+
+.abstand_bottom_profil {
+  margin-left: 60px;
 }
