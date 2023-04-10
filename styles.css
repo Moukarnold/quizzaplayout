@@ -19,22 +19,25 @@ body {
   background-color: aquamarine;
   border: solid 2px;
   height: 80px;
-  width: 103%;
+  width: 105%;
   right: 8px;
   top: -9px;
 }
 
-.bookmark {
+.book {
   position: absolute;
-  right: 15%;
-  margin-top: -7px;
+  right: 19%;
+  margin-top: -10px;
   z-index: 2;
+  border: solid 1px lightgray;
+  border-radius: 10%;
 }
 
 .sub-question {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly stretch;
+  -justify-content: space-between;
+  gap: 3%;
   margin: 3%;
 }
 
@@ -45,28 +48,28 @@ body {
   width: 80%;
 }
 
-.box2 {
+-.box2 {
   border: solid 2px black;
   margin: 20px;
   height: 40%;
   width: 80%;
 }
 
-.box3 {
+-.box3 {
   border: solid 2px black;
   margin: 20px;
   width: 80%;
   height: 40%;
 }
 
-.box4 {
+-.box4 {
   border: solid 2px black;
   margin: 20px;
   height: 40%;
   width: 80%;
 }
 
-.box5 {
+-.box5 {
   border: solid 2px black;
   margin: 20 0 0 px;
   height: 40%;
@@ -90,17 +93,19 @@ body {
   justify-content: space-between;
   margin: 2%;
   margin-right: 2%;
+  margin-left: 55px;
+  margin-right: 55px;
 }
 
 .stelle {
   text-align: center;
 }
 
-.question1 {
+-.question1 {
   margin-right: 2%;
 }
 
-.question2 {
+-.question2 {
   margin-right: 2%;
 }
 
@@ -109,6 +114,7 @@ body {
   height: 50px;
   border-radius: 20%;
   background-color: gb(198, 223, 171);
+  border: solid black;
 }
 
 .foto-home {
@@ -116,40 +122,42 @@ body {
   height: 50px;
   border-radius: 20%;
   background-color: gb(198, 223, 171);
+  border: solid black;
 }
 
-.foto-setting {
+.foto-bookmark {
   width: 50px;
   height: 50px;
   border-radius: 20%;
+  border: solid black;
 }
 
 .body_container_profil {
   display: flex;
   flex-direction: column;
+  gap: 10%;
 }
 
+.body_entete_profil {
+  display: flex;
+  gap: 15%;
+  margin-left: 55px;
+  margin-right: 55px;
+}
 .body_foto-profil {
   width: 150px;
   height: 150px;
   border-radius: 20px;
 }
-.name_profil {
+-.name_profil {
   margin-top: 70px;
-  text-size-adjust: 90%;
-}
-
-.body_entete_profil {
-  display: flex;
-  gap: 70px;
-  margin-left: 55px;
-  margin-right: 55px;
 }
 
 .body_midle_form_profil {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 10%;
   margin-left: 55px;
   margin-right: 55px;
   margin-bottom: 80px;
@@ -173,10 +181,10 @@ body {
   margin-bottom: 40px;
 }
 
-.abstand {
-  margin-left: 40px;
+.abstand_midle_form_profil {
+  margin-left: 55px;
 }
 
-.abstand_bottom_profil {
-  margin-left: 60px;
+-.abstand_bottom_profil {
+  margin-left: 55px;
 }
